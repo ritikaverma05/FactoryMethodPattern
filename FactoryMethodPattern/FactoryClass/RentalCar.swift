@@ -18,8 +18,8 @@ func createRentalCar(passengers: Int) -> String?{
         car = Compact()
     case 5...7:
         car = SUV()
-//    case 8...20:
-//        car = Bus()
+    case 8...20:
+        car = Bus()
     default:
         car = nil;
     }
@@ -49,7 +49,7 @@ class SUV: RentalCar{
     var passenger: Int = 4
 }
 
-//class Bus: RentalCar{
-//    var name: String = "Bus"
-//    var passenger: Int = 20
-//}
+class Bus: RentalCar{
+    var name: String = "Bus"
+    var passenger: Int = 20
+}

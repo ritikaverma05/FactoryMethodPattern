@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var carLabel: UILabel!
+    var car = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        car = CarSelector.selectCar(passengers: 2)!
+        carLabel.text = car
     }
 
 

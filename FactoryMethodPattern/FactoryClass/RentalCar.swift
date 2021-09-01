@@ -6,7 +6,6 @@
 //
 
 //Global Factory Method
-//
 
 func createRentalCar(passengers: Int) -> String?{
     var car:RentalCar?
@@ -40,7 +39,7 @@ class Compact: RentalCar{
 }
 
 class Sports: RentalCar{
-    var name: String = "porche"
+    var name: String = "porsche"
     var passenger: Int = 2
 }
 

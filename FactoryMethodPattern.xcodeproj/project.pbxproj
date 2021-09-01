@@ -15,6 +15,8 @@
 		0D78669126DF2E12000786D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D78668F26DF2E12000786D2 /* LaunchScreen.storyboard */; };
 		0D78669C26DF2E12000786D2 /* FactoryMethodPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78669B26DF2E12000786D2 /* FactoryMethodPatternTests.swift */; };
 		0D7866A726DF2E12000786D2 /* FactoryMethodPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7866A626DF2E12000786D2 /* FactoryMethodPatternUITests.swift */; };
+		0D7866B926DF2E95000786D2 /* RentalCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7866B826DF2E95000786D2 /* RentalCar.swift */; };
+		0D7866C126DF2EA8000786D2 /* CarSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7866C026DF2EA8000786D2 /* CarSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0D7866A226DF2E12000786D2 /* FactoryMethodPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethodPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7866A626DF2E12000786D2 /* FactoryMethodPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPatternUITests.swift; sourceTree = "<group>"; };
 		0D7866A826DF2E12000786D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D7866B826DF2E95000786D2 /* RentalCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalCar.swift; sourceTree = "<group>"; };
+		0D7866C026DF2EA8000786D2 /* CarSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		0D78668326DF2E0E000786D2 /* FactoryMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
+				0D7866B726DF2E68000786D2 /* FactoryClass */,
 				0D78668426DF2E0E000786D2 /* AppDelegate.swift */,
 				0D78668626DF2E0E000786D2 /* SceneDelegate.swift */,
 				0D78668826DF2E0E000786D2 /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				0D7866A826DF2E12000786D2 /* Info.plist */,
 			);
 			path = FactoryMethodPatternUITests;
+			sourceTree = "<group>";
+		};
+		0D7866B726DF2E68000786D2 /* FactoryClass */ = {
+			isa = PBXGroup;
+			children = (
+				0D7866B826DF2E95000786D2 /* RentalCar.swift */,
+				0D7866C026DF2EA8000786D2 /* CarSelector.swift */,
+			);
+			path = FactoryClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			files = (
 				0D78668926DF2E0E000786D2 /* ViewController.swift in Sources */,
 				0D78668526DF2E0E000786D2 /* AppDelegate.swift in Sources */,
+				0D7866B926DF2E95000786D2 /* RentalCar.swift in Sources */,
+				0D7866C126DF2EA8000786D2 /* CarSelector.swift in Sources */,
 				0D78668726DF2E0E000786D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
